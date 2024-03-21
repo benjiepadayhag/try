@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px; /* Adjust this value according to your preference */
+    margin: 0 auto; /* This centers the container horizontally */
+    position: relative; /* Ensure positioning works correctly */
+}
+
+.banner {
+    /* height: calc(100vh - 80px);
+    background: url('bg3.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+    
+}
+.banner .glass-wrapper {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 30%;
+    height: 100%;
+}
+
+.hero-title {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 13rem;
+}
+
+.hero-title p {
+    font-size: 47px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.hero-title .city {
+    font-size: 85px;
+    letter-spacing: 3px;
+}
+
+.hero-title .details {
+    width: 60%;
+    padding-top: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    padding-bottom: 2.5rem;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
+}
+
+.hero-title .explore button {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: none;
+    color: #ffffff;
+    padding: 12px 50px;
+    border-radius: 50px;
+    letter-spacing: 1.5px;
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+}
+.tourist-list {
+    bottom: 25px;
+    padding-left: 200px;
+    position: absolute;
+    left: 50%; /* Centering the list */
+    transform: translateX(-50%); /* Centering the list */
+}
+
+.tourist-list p {
+    color: #ffffff;
+    padding-left: 20px;
+    margin-bottom: auto;
+    line-height: 24px;
+}
+
+.tourist-list ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    width: 100%; /* Ensuring the list spans the container */
+    height: 15rem;
+    align-items: center;
+}
+
+.tourist-list .thumbnail,
+.tourist-list .thumbnail1,
+.tourist-list .thumbnail2 {
+    display: flex;
+    height: 10rem;
+    width: 18rem;
+    background-size: cover;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.tourist-list .thumbnail .details,
+.tourist-list .thumbnail1 .details,
+.tourist-list .thumbnail2 .details {
+    margin-top: auto;
+    padding: 10px 0px;
+}
+
+.details .locality-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.details .wander {
+    font-weight: 300;
+}
+
+.tourist-list .active {
+    margin-top: -5rem;
+}
+
+.thumbnail {
+    background-image: url(bg3.jpg);
+}
+
+.thumbnail1 {
+    background-image: url(1.jpg);
+}
+
+.thumbnail2 {
+    background-image: url(2.jpg);
+}
+
